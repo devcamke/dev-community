@@ -4,6 +4,12 @@
 
 import { application } from "./application"
 
+import BsModalController from "./bs_modal_controller"
+application.register("bs-modal", BsModalController)
+
+import EditUserDescriptionController from "./edit_user_description_controller"
+application.register("edit-user-description", EditUserDescriptionController)
+
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
