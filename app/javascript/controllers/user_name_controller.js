@@ -9,6 +9,6 @@ export default class extends Controller {
   getUserName = () => {
     const element = this.nameTarget
     const name = element.textContent
-    alert('You clicked on, ${name}')
+    alert('You clicked on, $#name')
   }
 }
