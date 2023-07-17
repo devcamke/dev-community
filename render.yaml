@@ -20,7 +20,4 @@ services:
     ipAllowList: []
     plan: free
     maxmemoryPolicy: noeviction
-    build:
-    env:
-      - name: SECRET_KEY_BASE
-        value: asdf1234
+    
