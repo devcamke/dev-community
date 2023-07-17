@@ -86,6 +86,7 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
-  database: dev_community_production
-  username: dev_community
-  password: <%= ENV['DEV_COMMUNITY_DATABASE_PASSWORD'] %>
+  host: dpg-ciqf3sdgkuvrtobogi9g-a
+  database: postgres_u7v9
+  username: postgres_u7v9_user
+  password: sjDlS8neDeDf7nEiccJhXJu62a3d0feM
