@@ -11,7 +11,7 @@ gem "jsbundling-rails"
 gem "kaminari"
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
-gem "rails", "~> 7.0.5", ">= 7.0.5.1"
+gem 'rails', '~> 7.1', '>= 7.1.2'
 gem "ransack"
 gem "sassc-rails"
 gem "sprockets-rails"
